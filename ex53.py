@@ -1,8 +1,16 @@
 frase = input('Digite uma frase qualquer: ').lower().strip()
 
+inverso = ''
 
+for i in range(len(frase) - 1, -1, -1):
+    inverso += frase[i]
+    
+print('O inverso de {} é {}'.format(frase, inverso))
 
-
+if inverso == frase:
+    print('A frase digitada é um palíndromo')
+else:
+    print('A frase digitada não é um palíndromo')
 
 
 
