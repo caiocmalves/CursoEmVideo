@@ -6,7 +6,7 @@ while continuar != 'n':
     n = int(input('Digite um valor: '))
     for i in range(0, len(ns)):
         if n == ns[i]:
-            print('Valor duplicado! Não vou adicionar...')     
+            print('Valor duplicado! Não vou adicionar...')
     for i in range(0, len(ns)):
         if n not in ns:
             ns.append(n)
